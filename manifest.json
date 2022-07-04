@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Binks Index",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/jer.png" 
+  },
+  "description": "Facilitates the calculation of the binks index of a given starwars fandom page",
+
+  "browser_action": {
+    "default_icon": "icons/jer.png",
+    "default_title": "Binks Index",
+    "default_popup": "popup/popup.html"
+  },
+
+  "background": {
+      "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs", "storage"
+  ]
+}
